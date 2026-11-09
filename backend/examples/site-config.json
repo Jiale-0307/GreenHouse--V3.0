@@ -1,0 +1,9 @@
+{
+  "controlVerified": false,
+  "metrics": [],
+  "actuators": [],
+  "parameters": [],
+  "cameras": [
+    {"id": "camera-1", "name": "摄像头1", "playbackUrl": null, "protocol": null, "online": null}
+  ]
+}

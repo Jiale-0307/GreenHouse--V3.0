@@ -1,0 +1,1 @@
+import{j as e}from"./x-gD5uMbKs.js";var t=e();function n({title:e=`暂无数据`,detail:n}){return(0,t.jsxs)(`div`,{className:`empty`,children:[(0,t.jsx)(`strong`,{children:e}),n&&(0,t.jsx)(`span`,{children:n})]})}export{n as t};

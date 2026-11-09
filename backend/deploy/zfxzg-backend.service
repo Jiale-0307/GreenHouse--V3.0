@@ -1,0 +1,22 @@
+# 不使用Docker时的Linux systemd模板；将/srv/zfxzg/backend替换成实际目录。
+[Unit]
+Description=ZFXZG greenhouse API
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=zfxzg
+Group=zfxzg
+WorkingDirectory=/srv/zfxzg/backend
+EnvironmentFile=/srv/zfxzg/backend/.env
+ExecStart=/srv/zfxzg/backend/.venv/bin/uvicorn app.main:create_app --factory --host 127.0.0.1 --port 8080 --workers 1 --no-access-log
+Restart=on-failure
+RestartSec=5
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+
+[Install]
+WantedBy=multi-user.target

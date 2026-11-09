@@ -1,0 +1,194 @@
+{
+  "transportConfirmed": false,
+  "requestTopic": "dtu/down",
+  "responseTopic": "dtu/up",
+  "siteId": "default-site",
+  "requestEncoding": "raw",
+  "responseEncoding": "auto",
+  "addressOffset": 0,
+  "pollIntervalSeconds": 10,
+  "timeoutSeconds": 3,
+  "requestGapSeconds": 0.1,
+  "points": [
+    {
+      "metricId": "soil-humidity",
+      "address": 400,
+      "slaveId": 1,
+      "functionCode": 3,
+      "dataType": "float_word_swap",
+      "scale": 1,
+      "offset": 0,
+      "enabled": true
+    },
+    {
+      "metricId": "soil-temp",
+      "address": 402,
+      "slaveId": 1,
+      "functionCode": 3,
+      "dataType": "float_word_swap",
+      "scale": 1,
+      "offset": 0,
+      "enabled": true
+    },
+    {
+      "metricId": "soil-ec",
+      "address": 404,
+      "slaveId": 1,
+      "functionCode": 3,
+      "dataType": "float_word_swap",
+      "scale": 1,
+      "offset": 0,
+      "enabled": true
+    },
+    {
+      "metricId": "soil-ph",
+      "address": 406,
+      "slaveId": 1,
+      "functionCode": 3,
+      "dataType": "float_word_swap",
+      "scale": 1,
+      "offset": 0,
+      "enabled": true
+    },
+    {
+      "metricId": "soil-n",
+      "address": 408,
+      "slaveId": 1,
+      "functionCode": 3,
+      "dataType": "float_word_swap",
+      "scale": 1,
+      "offset": 0,
+      "enabled": true
+    },
+    {
+      "metricId": "soil-p",
+      "address": 410,
+      "slaveId": 1,
+      "functionCode": 3,
+      "dataType": "float_word_swap",
+      "scale": 1,
+      "offset": 0,
+      "enabled": true
+    },
+    {
+      "metricId": "soil-k",
+      "address": 412,
+      "slaveId": 1,
+      "functionCode": 3,
+      "dataType": "float_word_swap",
+      "scale": 1,
+      "offset": 0,
+      "enabled": true
+    },
+    {
+      "metricId": "uv",
+      "address": 414,
+      "slaveId": 1,
+      "functionCode": 3,
+      "dataType": "float_word_swap",
+      "scale": 1,
+      "offset": 0,
+      "enabled": true
+    },
+    {
+      "metricId": "uv-index",
+      "address": 416,
+      "slaveId": 1,
+      "functionCode": 3,
+      "dataType": "float_word_swap",
+      "scale": 1,
+      "offset": 0,
+      "enabled": true
+    },
+    {
+      "metricId": "inside-humidity-04",
+      "address": 430,
+      "slaveId": 1,
+      "functionCode": 3,
+      "dataType": "float_word_swap",
+      "scale": 1,
+      "offset": 0,
+      "enabled": true
+    },
+    {
+      "metricId": "inside-temp-04",
+      "address": 432,
+      "slaveId": 1,
+      "functionCode": 3,
+      "dataType": "float_word_swap",
+      "scale": 1,
+      "offset": 0,
+      "enabled": true
+    },
+    {
+      "metricId": "co2",
+      "address": 434,
+      "slaveId": 1,
+      "functionCode": 3,
+      "dataType": "float_word_swap",
+      "scale": 1,
+      "offset": 0,
+      "enabled": true
+    },
+    {
+      "metricId": "light",
+      "address": 436,
+      "slaveId": 1,
+      "functionCode": 3,
+      "dataType": "float_word_swap",
+      "scale": 1,
+      "offset": 0,
+      "enabled": true
+    },
+    {
+      "metricId": "outside-humidity",
+      "address": 440,
+      "slaveId": 1,
+      "functionCode": 3,
+      "dataType": "float_word_swap",
+      "scale": 1,
+      "offset": 0,
+      "enabled": true
+    },
+    {
+      "metricId": "outside-temp",
+      "address": 442,
+      "slaveId": 1,
+      "functionCode": 3,
+      "dataType": "float_word_swap",
+      "scale": 1,
+      "offset": 0,
+      "enabled": true
+    },
+    {
+      "metricId": "inside-humidity-06",
+      "address": 450,
+      "slaveId": 1,
+      "functionCode": 3,
+      "dataType": "float_word_swap",
+      "scale": 1,
+      "offset": 0,
+      "enabled": true
+    },
+    {
+      "metricId": "inside-temp-06",
+      "address": 452,
+      "slaveId": 1,
+      "functionCode": 3,
+      "dataType": "float_word_swap",
+      "scale": 1,
+      "offset": 0,
+      "enabled": true
+    },
+    {
+      "metricId": "co",
+      "address": 460,
+      "slaveId": 1,
+      "functionCode": 3,
+      "dataType": "float_word_swap",
+      "scale": 1,
+      "offset": 0,
+      "enabled": true
+    }
+  ]
+}

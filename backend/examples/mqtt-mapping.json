@@ -1,0 +1,13 @@
+{
+  "subscriptions": [
+    {
+      "topic": "REPLACE_WITH_CONFIRMED_TOPIC",
+      "siteId": "default-site",
+      "messageIdPath": ["messageId"],
+      "observedAtPath": ["observedAt"],
+      "metrics": [
+        {"metricId": "inside-temp-04", "path": ["REPLACE_WITH_ACTUAL_FIELD"], "scale": 1, "offset": 0}
+      ]
+    }
+  ]
+}

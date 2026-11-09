@@ -1,0 +1,7 @@
+{
+  "messageId": "debug-example-replace-with-unique-id",
+  "metrics": [
+    {"metricId": "inside-temp-04", "value": 0, "quality": "good", "observedAt": null},
+    {"metricId": "soil-ph", "value": null, "quality": "unknown", "observedAt": null}
+  ]
+}

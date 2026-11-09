@@ -1,0 +1,38 @@
+{
+  "name": "zfxzg-greenhouse-platform",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "build:same-origin": "tsc -b && VITE_API_BASE_URL=/api/v1 VITE_WS_URL= vite build",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "preview": "vite preview",
+    "check:api": "node scripts/validate-api.mjs",
+    "format": "prettier --write src scripts vite.config.ts tsconfig.json package.json",
+    "format:check": "prettier --check src scripts vite.config.ts tsconfig.json package.json"
+  },
+  "dependencies": {
+    "@tanstack/react-query": "^5.59.16",
+    "echarts": "^6.1.0",
+    "hls.js": "^1.7.4",
+    "lucide-react": "^0.468.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^7.18.5"
+  },
+  "devDependencies": {
+    "@apidevtools/swagger-parser": "^13.1.0",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@types/react-test-renderer": "^18.3.1",
+    "@vitejs/plugin-react": "^6.2.1",
+    "prettier": "^3.9.10",
+    "react-test-renderer": "^18.3.1",
+    "typescript": "^5.6.3",
+    "vite": "^8.3.5",
+    "vitest": "^5.0.5"
+  }
+}

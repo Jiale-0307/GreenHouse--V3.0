@@ -1,0 +1,15 @@
+# 供 1Panel 中 MySQL / OpenResty 使用同一 Docker 桥接网络时合并使用。
+# 先核对实际网络名，在 .env 中设置 PANEL_DOCKER_NETWORK；不会创建或修改已有网络。
+# 使用方式见 DEPLOY-STEP-BY-STEP.md，不能把示例网络名当作服务器事实。
+services:
+  backend:
+    networks:
+      panel:
+        aliases:
+          # OpenResty 在同一网络中通过此名称访问后端，避免依赖容器 IP。
+          - zfxzg-api
+
+networks:
+  panel:
+    external: true
+    name: "${PANEL_DOCKER_NETWORK:?请先在 .env 中填写实际的 1Panel Docker 网络名}"

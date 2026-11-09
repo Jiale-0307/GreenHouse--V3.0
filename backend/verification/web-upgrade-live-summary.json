@@ -1,0 +1,123 @@
+{
+  "schemaVersions": [
+    2
+  ],
+  "tables": 21,
+  "enabledAccounts": 1,
+  "latestHistoricalSampleId": 383944,
+  "cookieFreeHttp": 401,
+  "cookieFreeWs": {
+    "denied": 403
+  },
+  "logoutA": 401,
+  "bAfterLogoutA": 200,
+  "revokedActiveWs": {
+    "closed": 4401
+  },
+  "concurrentGets": 12,
+  "maxGetSeconds": 0.213,
+  "authenticatedWs": {
+    "type": "snapshot.updated",
+    "metricCount": 21
+  },
+  "modbusMqtt": {
+    "enabled": true,
+    "connected": true,
+    "ready": true,
+    "acceptedMessages": 218,
+    "rejectedMessages": 0,
+    "publishedRequests": 218,
+    "timedOutRequests": 0,
+    "failedRequests": 0,
+    "lastResponseAt": "2026-11-09T00:27:41+08:00",
+    "lastError": null,
+    "pendingMetricId": null
+  },
+  "receivedAt": "2026-11-09T00:27:41+08:00",
+  "metricValues": 18,
+  "mode": {
+    "state": "manual",
+    "raw": [
+      0,
+      1
+    ],
+    "receivedAt": "2026-11-09T00:27:34+08:00",
+    "version": "2026-11-09T00:27:34+08:00",
+    "writable": false,
+    "disabledReason": "停止行为、现场优先级及写入协议尚未确认"
+  },
+  "outputCount": 10,
+  "faultStates": {
+    "normal": 18,
+    "fault": 0,
+    "unknown": 0
+  },
+  "meter": {
+    "mappingConfirmed": false,
+    "status": "unconfirmed",
+    "rawRegisters": [
+      17258,
+      13107,
+      16053,
+      16253
+    ],
+    "values": [],
+    "receivedAt": "2026-11-09T00:27:35+08:00"
+  },
+  "meanEvidence": {
+    "oxygen": {
+      "status": "unconfirmed",
+      "sources": [
+        {
+          "raw": 21.399999618530273,
+          "unit": null,
+          "value": null,
+          "address": 420
+        },
+        {
+          "raw": 0.0,
+          "unit": null,
+          "value": null,
+          "address": 422
+        }
+      ],
+      "attemptedAt": "2026-11-09T00:27:34+08:00"
+    },
+    "outside-pressure": {
+      "status": "unconfirmed",
+      "sources": [
+        {
+          "raw": 102.9000015258789,
+          "unit": null,
+          "value": null,
+          "address": 444
+        },
+        {
+          "raw": 0.0,
+          "unit": null,
+          "value": null,
+          "address": 446
+        }
+      ],
+      "attemptedAt": "2026-11-09T00:27:34+08:00"
+    },
+    "inside-pressure": {
+      "status": "unconfirmed",
+      "sources": [
+        {
+          "raw": 102.9000015258789,
+          "unit": null,
+          "value": null,
+          "address": 454
+        },
+        {
+          "raw": 0.0,
+          "unit": null,
+          "value": null,
+          "address": 456
+        }
+      ],
+      "attemptedAt": "2026-11-09T00:27:34+08:00"
+    }
+  }
+}

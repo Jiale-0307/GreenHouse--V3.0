@@ -1,0 +1,1 @@
+import{y as e}from"./index-C2lhX6nt.js";var t=e();function n({title:e=`null`,detail:n}){return(0,t.jsxs)(`div`,{className:`empty`,children:[(0,t.jsx)(`strong`,{children:e}),n&&(0,t.jsx)(`span`,{children:n})]})}export{n as t};
